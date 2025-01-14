@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+.env
+
+# Python Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Logs and Debug Files
+*.log
+*.out
+*.err
+
+# IDE Configurations
+.vscode/
+.idea/
+
+# OS-Specific Files
+.DS_Store
+Thumbs.db
+
+# Dependencies
+*.egg-info/
+*.lock
+
+# Test Outputs
+*.coverage
+.cache/
+pytest_cache/
+
+# Build Artifacts
+build/
+dist/
