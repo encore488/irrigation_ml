@@ -1,7 +1,3 @@
-# Virtual Environment
-venv/
-.env
-
 # Python Bytecode
 __pycache__/
 *.py[cod]
@@ -20,15 +16,12 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Dependencies
-*.egg-info/
-*.lock
 
 # Test Outputs
 *.coverage
 .cache/
 pytest_cache/
 
-# Build Artifacts
-build/
-dist/
+api_key.txt
+.env
+testing.py
